@@ -1,0 +1,46 @@
+Here’s a **concise STAR-based response** showcasing your solution and aligning it with the **core principles**. 
+
+---
+
+### **Situation**  
+In my role as an SRE Principal Engineer, I identified a major pain point with **Jenkins CI/CD jobs**: there was no visibility into **job performance, latency, or error rates**. Engineers were spending **hours manually parsing logs** to troubleshoot issues, and monitoring critical jobs like **Prisma scans** was cumbersome. This lack of visibility was impacting **developer productivity** and **slowing down deployments**.  
+
+---
+
+### **Task**  
+My task was to **implement a solution** that would provide real-time **observability into Jenkins pipelines**, enabling engineers to quickly identify failures and bottlenecks, and improving the **speed and reliability** of our CI/CD pipelines.
+
+---
+
+### **Action**  
+1. **Force Multiplier**:  
+   - I proposed using **OpenTelemetry (OTel)** to bring **end-to-end observability** to Jenkins pipelines. OpenTelemetry offered the ability to collect **job performance as transaction data**, giving us the exact visibility we needed.  
+   - I onboarded and trained **team leads** on integrating OTel into Jenkins, empowering them to extend the solution further. 
+
+2. **Execution and Delivery**:  
+   - I developed and deployed a **custom plugin for Jenkins** that allowed job events to emit traces via OpenTelemetry.  
+   - I integrated the data into **Grafana dashboards**, enabling engineers to monitor job performance, latency, and error rates in real-time.  
+   - I set up **alerts for critical jobs** like Prisma scans, allowing teams to detect and address issues proactively.
+
+3. **Technical Acumen**:  
+   - Leveraging my in-depth knowledge of **OpenTelemetry**, I optimized the tracing configuration to reduce overhead while providing detailed job insights.  
+   - I automated log parsing and job event collection, significantly reducing the time spent troubleshooting issues. 
+
+4. **Continuous Learning & Growth**:  
+   - I ran **knowledge-sharing sessions** with engineers on the observability enhancements and best practices for using the dashboards.  
+   - The solution was documented in a **playbook**, which was later adopted by other teams to monitor additional services beyond CI/CD.
+
+5. **Big Picture Thinking**:  
+   - I aligned the solution with the **organization’s DevOps goals**, ensuring that CI/CD pipelines were not just faster but also more reliable and resilient.  
+
+---
+
+### **Result**  
+- **Impact on delivery:** Engineers reported a **30% reduction in CI/CD troubleshooting time**, significantly accelerating deployment cycles.  
+- **Improved reliability:** Critical jobs, like Prisma scans, were now actively monitored, reducing failure incidents by **20%**.  
+- **Developer productivity:** With real-time observability in place, deployment frequency improved by **15%** within the first quarter.  
+- **Sustainable impact:** The solution was rolled out across other pipelines, creating a **repeatable framework** for monitoring CI/CD processes.
+
+---
+
+This response demonstrates your **technical expertise, leadership, and ability to deliver impactful solutions** while aligning with **core principles** like **force multiplication, execution, and strategic thinking**.
